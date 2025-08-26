@@ -6,6 +6,6 @@ public class ConversorDeMoeda {
 
         CalculoCambio  calculo = new CalculoCambio();
 
-        CalculoCambio.obterDados();
+        calculo.obterDados();
     }
 }
