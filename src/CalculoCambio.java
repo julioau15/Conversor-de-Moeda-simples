@@ -31,11 +31,13 @@ public class CalculoCambio{
 
     public void exibirResultados(){
 
+        String valorCambioComDoisDecimais = String.format("%.2f", valorCambioFinal);
+
         System.out.println("***********************");
         System.out.println("MOEDA DE ORIGEM:  " + moedaDeOrigem );
         System.out.println("MOEDA DE DESTINO: " + moedaDeDestino );
         System.out.println("CAMBIO ATUAL: " + cambioAtual );
-        System.out.println("1 " + moedaDeDestino + " É IGUAL A: " + valorCambioFinal + " " + moedaDeOrigem);
+        System.out.println("1 " + moedaDeDestino + " É IGUAL A: " + valorCambioComDoisDecimais + " " + moedaDeOrigem);
         System.out.println("***********************");
         
     }
