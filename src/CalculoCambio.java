@@ -16,7 +16,7 @@ public class CalculoCambio{
         System.out.println("Agora digite o nome da moeda de destino:  ");
         moedaDeDestino = leitor.nextLine();
 
-        System.out.println("Qual o valor de 1 " + moedaDeOrigem + " para " + moedaDeDestino + "?");
+        System.out.println("Qual o valor de 1 " + moedaDeDestino + " para " + moedaDeOrigem + "?");
         cambioAtual = leitor.nextDouble();
 
         calcularCambio();
@@ -32,10 +32,10 @@ public class CalculoCambio{
     public void exibirResultados(){
     
         System.out.println("***********************");
-        System.out.println("MOEDA DE ORIGEM: " + moedaDeOrigem );
+        System.out.println("MOEDA DE ORIGEM:  " + moedaDeOrigem );
         System.out.println("MOEDA DE DESTINO: " + moedaDeDestino );
         System.out.println("CAMBIO ATUAL: " + cambioAtual );
-        System.out.println("1 " + moedaDeDestino + " É IGUAL A: " + valorCambioFinal + " " + moedaDeOrigem);
+        System.out.println("1 " + moedaDeOrigem + " É IGUAL A: " + valorCambioFinal + " " + moedaDeDestino);
         System.out.println("***********************");
         
     }
